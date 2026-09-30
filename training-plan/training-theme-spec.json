@@ -1,0 +1,18 @@
+{
+  "id": "training-dual-track",
+  "brand": {
+    "name": "双轨训练计划场景语义配色",
+    "checkedAt": "2026-09-30",
+    "sources": [
+      {
+        "kind": "scene-derived",
+        "reference": "两条独立训练线：新手线用蓝色，有基础线用紫色，作为稳定语义角色区分"
+      }
+    ]
+  },
+  "palette": {
+    "primary": "#654ACB",
+    "series": ["#4A7BD9", "#654ACB"],
+    "other": "#9AA3AF"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "primitives": "./primitives.json",
+  "defaultUiTheme": "warm-gray",
+  "defaultDiagramTheme": "training-dual-track",
+  "uiThemes": {
+    "warm-gray": "./ui-theme.json"
+  },
+  "diagramThemes": {
+    "training-dual-track": "./diagram-theme.json"
+  }
+}

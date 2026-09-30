@@ -1,0 +1,156 @@
+{
+  "id": "training-dual-track",
+  "version": 1,
+  "tags": [
+    "task",
+    "evidence-backed"
+  ],
+  "brandEvidence": {
+    "name": "双轨训练计划场景语义配色",
+    "checkedAt": "2026-09-30",
+    "sources": [
+      {
+        "kind": "scene-derived",
+        "reference": "两条独立训练线：新手线用蓝色，有基础线用紫色，作为稳定语义角色区分"
+      }
+    ],
+    "derivations": [
+      {
+        "role": "node.primary.text",
+        "method": "wcag-contrast-choice",
+        "basis": "Compared #FFFFFF and #0A0A0A on #654ACB; chose #FFFFFF."
+      },
+      {
+        "role": "node.emphasis.fill",
+        "method": "primary-overlay",
+        "basis": "Blended #654ACB at 12% over #F7F6F5; derived #E5E1F0."
+      },
+      {
+        "role": "node.emphasis.text",
+        "method": "wcag-contrast-choice",
+        "basis": "Compared #FFFFFF and #0A0A0A on #E5E1F0; chose #0A0A0A."
+      },
+      {
+        "role": "data.labelRoles[0].text",
+        "method": "wcag-contrast-choice",
+        "fill": "#4A7BD9",
+        "basis": "Compared #FFFFFF and #0A0A0A on #4A7BD9; chose #0A0A0A."
+      },
+      {
+        "role": "data.labelRoles[1].text",
+        "method": "wcag-contrast-choice",
+        "fill": "#9AA3AF",
+        "basis": "Compared #FFFFFF and #0A0A0A on #9AA3AF; chose #0A0A0A."
+      }
+    ]
+  },
+  "document": {
+    "background": "#F7F6F5",
+    "text": "#0A0A0A",
+    "mutedText": "#404040",
+    "connector": "#737373",
+    "primaryConnector": "#654ACB"
+  },
+  "node": {
+    "neutral": {
+      "fill": "#FFFFFF",
+      "stroke": "#7373735C",
+      "text": "#0A0A0A"
+    },
+    "primary": {
+      "fill": "#654ACB",
+      "stroke": "#654ACB",
+      "text": "#FFFFFF"
+    },
+    "emphasis": {
+      "fill": "#E5E1F0",
+      "stroke": "#654ACB",
+      "text": "#0A0A0A"
+    },
+    "secondary": {
+      "fill": "#FAFAFA",
+      "stroke": "#7373732E",
+      "text": "#0A0A0A"
+    }
+  },
+  "style": {
+    "shape": {
+      "roughness": 0,
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    "text": {
+      "fontFamily": "helvetica",
+      "fontFamilyAliases": [
+        2,
+        "2"
+      ],
+      "codeFontFamily": "cascadia",
+      "codeFontFamilyAliases": [
+        3,
+        "3"
+      ],
+      "fontSize": 16,
+      "groupTitleFontSize": 20,
+      "titleFontSize": 28
+    },
+    "arrow": {
+      "roughness": 0,
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "opacity": 100,
+      "route": "straight",
+      "startArrowhead": null,
+      "endArrowhead": "triangle",
+      "roundness": null,
+      "elbowed": false
+    },
+    "allowed": {
+      "strokeWidths": [
+        1,
+        2
+      ],
+      "strokeStyles": [
+        "solid",
+        "dashed"
+      ],
+      "rectangleRoundnessTypes": [
+        null,
+        3
+      ],
+      "arrowRoutes": [
+        "straight",
+        "elbowed",
+        "curved"
+      ],
+      "arrowheads": [
+        null,
+        "triangle"
+      ]
+    }
+  },
+  "data": {
+    "accents": [],
+    "other": "#9AA3AF",
+    "labelRoles": [
+      {
+        "fill": "#4A7BD9",
+        "text": "#0A0A0A"
+      },
+      {
+        "fill": "#9AA3AF",
+        "text": "#0A0A0A"
+      }
+    ]
+  },
+  "semantic": {},
+  "series": [
+    "#4A7BD9",
+    "#654ACB"
+  ]
+}
